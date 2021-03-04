@@ -1,0 +1,45 @@
+file_ECG : segnale ECG
+file_R2R : valori di frequenza cardiaca
+file_PRESS : segnale respiratorio
+file_BR : valori di frequenza respiratoria
+file_ACC :  segnali accelerometrici (da accelerometro triassiale)
+file_ORIENT : valori indicanti la posizione assunta dal soggetto nello spazio
+
+ECG
+timestamp (relativo al pacchetto di dati)
+sampleNum (relativo al pacchetto di dati)
+Frequency
+HearRate [bpm]
+SensorStatus
+RRlength [ms]
+Samples 
+
+R2R
+timestamp 
+sampleNum (numero del campione associato all'evento)
+heartRate [bpm]
+rrLen  [ms]
+
+ORIENT
+timestamp 
+orientation
+
+ACC
+timestamp (relativo al pacchetto di dati)	
+sampleNum (relativo al pacchetto di dati)	
+Frequency	
+Samples X (asse X)	 
+Samples Y (asse Y)	 
+Samples Z (asse Z)
+
+PRESS (segnale respiratorio)
+timestamp (relativo al pacchetto di dati)
+sampleNum (relativo al pacchetto di dati)
+Samples
+
+BR
+timestamp 
+sampleNum 
+brInterval (in campioni)
+breathRate (in respiri al minuto)
+
